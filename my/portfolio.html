@@ -48,12 +48,117 @@
         .text-footer {
             font-family: 'Montserrat', sans-serif;
         }
+
+        .link-black {
+            color: black !important;
+        }
+
+        .card {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+        }
+
+        .card-title {
+            font-size: 20px;
+        }
     </style>
 </head>
 
 <body>
 
-    Paging test
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h1 class="mt-5 hello-heading">myPortfolio.</h1>
+
+                <!-- <div class="jumbotron p-4 mt-5 p-md-5 text-white rounded bg-dark">
+                    <div class="col-md-6 px-0">
+                        <h1 class="display-4 font-italic font-playfair">Title of a longer featured blog post</h1>
+                        <p class="lead my-3 font-playfair">Multiple lines of text that form the lede, informing new
+                            readers quickly
+                            and efficiently about what’s most interesting in this post’s contents.</p>
+                        <p class="lead mb-0 font-playfair"><a href="#" class="text-white font-weight-bold">Continue
+                                reading...</a></p>
+                    </div>
+                </div> -->
+
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-sm-6 portfolio-item mt-4">
+                        <div class="card h-100 bg-light" data-toggle="modal" data-target="#exampleModal">
+                            <a href="www.computer-cyber.org" target="_blank"><img class="card-img-top"
+                                    src="../img/myportfolio/home_org_cc.png" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="www.computer-cyber.org" class="font-playfair link-black"
+                                        target="_blank">Sistem
+                                        Informasi Organisasi</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 portfolio-item mt-4">
+                        <div class="card h-100 bg-light">
+                            <a href="sertifikat.ft.umrah.ac.id" target="_blank"><img class="card-img-top"
+                                    src="../img/myportfolio/home_sys_esrt.png" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="sertifikat.ft.umrah.ac.id" class="font-playfair link-black"
+                                        target="_blank">Sistem e-Sertifikat FT UMRAH</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 portfolio-item mt-4">
+                        <div class="card h-100 bg-light">
+                            <a href="developer.computer-cyber.org" target="_blank"><img class="card-img-top"
+                                    src="../img/myportfolio/home_sys_devcc.png" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="developer.computer-cyber.org" class="font-playfair link-black"
+                                        target="_blank">Layanan API Computer Cyber</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 portfolio-item mt-4">
+                        <div class="card h-100 bg-light">
+                            <a href="" target="_blank"><img class="card-img-top"
+                                    src="../img/myportfolio/home_sys_carrent.png" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="" class="font-playfair link-black" target="_blank">Promosi dan Rental
+                                        Mobil</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title hello-heading" id="exampleModalLabel">Sistem Informasi Organisasi.</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Pembuatan website sistem informasi organisasi Computer Cyber Study Club</p>
+                </div>
+                <div class="modal-footer" style="border: none;">
+                    <button type="button" class="btn btn-outline-dark font-playfair" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <footer class="mt-5 mb-4" style="margin-top: 100px;">
@@ -66,25 +171,6 @@
         </div>
 
     </footer>
-
-
-    <script>
-        $(document).ready(function () {
-            var typed = new Typed('.hello-heading', {
-                strings: [
-                    'Hello, World!',
-                    'I am Dimas Nugroho Putro.',
-                    'I am a Web Developer.',
-                ],
-                typeSpeed: 80,
-                backSPeed: 60,
-                delaySpeed: 90,
-                loop: true,
-                // smartBackspace: true // Default value
-            });
-        })
-    </script>
-
 
 
     <!-- Optional JavaScript -->
