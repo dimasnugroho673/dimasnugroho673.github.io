@@ -1,5 +1,5 @@
 var f = document.title;
-var u = window.location.pathname.replace(/.*gh-pages-no-extension\//, '');
+var u = window.location.pathname.replace(/.*my\//, '');
 var au = document.querySelector("a[href='" + u + "']");
 var af = document.querySelector("a[href='" + f + "']");
 au.className += ' tu';
