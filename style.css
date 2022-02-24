@@ -1,0 +1,71 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hello-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+p {
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.img-profile {
+    width: 100px;
+    border-radius: 80px;
+}
+
+.text-footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-highlight {
+    color: #8C6CF8;
+    font-weight: bold;
+}
+
+.content-section {
+    margin-top: 20px;
+}
+
+.ilus-dimasnp {
+    width: 300px;
+}
+
+.title-4 {
+    font-size: 25px;
+}
+
+.modal-dialog {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* .text-highlight::after {
+    content: ' ';
+    width: 100px !important;
+    height: 10px;
+    background-color: #8C6CF8;
+} */
+
+@media (min-width: 992px) { 
+    .col-desc {
+        margin-top: 200px;
+    }
+
+    .ilus-dimasnp {
+        position: absolute;
+        margin-top: 110px;
+        margin-left: 150px;
+        width: 500px;
+    }
+}
+

@@ -1,0 +1,232 @@
+[
+    {
+        "name": "HabitQ",
+        "image": "./img/poster-habitq.png",
+        "screenshots": [],
+        "platform": "iOS",
+        "descriptions": "An native iOS App that can monitoring task and evaluate the result of work for people who are difficulty time management.",
+        "role": "iOS Developer",
+        "jobDescriptions": [
+            "Slicing UI Design to Code",
+            "Develop UI the App using UIKit",
+            "Using Core Data to store presistent data"
+        ],
+        "link": {
+            "type": "github-black",
+            "href": "https://github.com/dimasnugroho673/HabitQ"
+        },
+        "tools": [
+            {
+                "name": "Xcode",
+                "icon": "xcode"
+            },
+            {
+                "name": "Sketch",
+                "icon": "sketch"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "UIKit",
+                "icon": "uikit"
+            },
+            {
+                "name": "Core Data",
+                "icon": "coredata"
+            }
+        ]
+    },
+    {
+        "name": "KisahKata",
+        "image": "./img/poster-kisahkata.png",
+        "screenshots": [],
+        "platform": "iOS",
+        "descriptions": "An iOS app that could help deaf students to learn new vocabulary with visualization about verbs and adjective words in the form of stories so the deaf student can understand the meaning of the words.",
+        "role": "iOS Developer",
+        "jobDescriptions": [
+            "Develop UI the App using UIKit",
+            "Using Core Data to store presistent data",
+            "Implemented AVFoundation to show video",
+            "Implemented CoreML to create action recognition model",
+            "Worked with third party library using Cocoapods",
+            "Worked with Git to track version of the codebase"
+        ],
+        "link": {
+            "type": "testflight",
+            "href": "https://testflight.apple.com/join/XDG5tOWB"
+        },
+        "tools": [
+            {
+                "name": "Xcode",
+                "icon": "xcode"
+            },
+            {
+                "name": "Sketch",
+                "icon": "sketch"
+            },
+            {
+                "name": "Create ML",
+                "icon": "createml"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "UIKit",
+                "icon": "uikit"
+            },
+            {
+                "name": "Core Data",
+                "icon": "coredata"
+            },
+            {
+                "name": "AVFoundation",
+                "icon": "avfoundation"
+            }
+        ]
+    },
+    {
+        "name": "Give Hub",
+        "image": "./img/poster-givehub.png",
+        "screenshots": [],
+        "platform": "iOS",
+        "descriptions": "An application that accommodates giving clothes to people who want to give clothes to those in need by providing a list of people who have used clothes so they don't get thrown away or can be reused to reduce clothing waste.",
+        "role": "iOS Developer & Backend Developer",
+        "jobDescriptions": [
+            "Worked with MVVM Architecture",
+            "Created RESTful API to provide back-end services",
+            "Worked with RESTful API to connect iOS App to back-end services",
+            "Worked with Git to track version of the codebase",
+            "Worked with Agile Framework for project management",
+            "Worked with third party library using Swift Package Manager"
+        ],
+        "link": {
+            "type": "appstore-black",
+            "href": "https://apps.apple.com/us/app/id1595316372"
+        },
+        "tools": [
+            {
+                "name": "Xcode",
+                "icon": "xcode"
+            },
+            {
+                "name": "Sketch",
+                "icon": "sketch"
+            },
+            {
+                "name": "Visual Studio Code",
+                "icon": "vscode"
+            },
+            {
+                "name": "Postman",
+                "icon": "postman"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "SwiftUI",
+                "icon": "swiftui"
+            },
+            {
+                "name": "Laravel",
+                "icon": "laravel"
+            }
+        ]
+    },
+    {
+        "name": "Dolanan",
+        "image": "./img/poster-dolanan.png",
+        "screenshots": [],
+        "platform": "iOS",
+        "descriptions": "An application that contains the latest game catalog, features game details, ratings, searches, and storage using local persistent data. This application applies the VIPER design pattern, clean architecture and modularization for each feature. This application was made as a requirement to complete the Menjadi iOS Developer Expert class from the Dicoding Academy.",
+        "role": "iOS Developer",
+        "jobDescriptions": [
+            "Worked with VIPER Design pattern",
+            "Worked with Clean Architecture",
+            "Spliting feature with Modularization",
+            "Worked with Git to track version of the codebase",
+            "Using persistent data to save favorite game",
+            "Implementing Continuous Integration using Travis CI"
+        ],
+        "link": {
+            "type": "github-black",
+            "href": "https://github.com/dimasnugroho673/Dolanan-Game-Catalogue3"
+        },
+        "tools": [
+            {
+                "name": "Xcode",
+                "icon": "xcode"
+            },
+            {
+                "name": "Sketch",
+                "icon": "sketch"
+            },
+            {
+                "name": "Visual Studio Code",
+                "icon": "vscode"
+            },
+            {
+                "name": "Postman",
+                "icon": "postman"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "SwiftUI",
+                "icon": "swiftui"
+            },
+            {
+                "name": "Laravel",
+                "icon": "laravel"
+            }
+        ]
+    },
+    {
+        "name": "COVID 19 Information Center",
+        "image": "./img/poster-c19info.png",
+        "screenshots": [],
+        "platform": "iOS",
+        "descriptions": "An application to get the latest information about COVID 19 in Indonesia.",
+        "role": "iOS Developer",
+        "jobDescriptions": [
+            "Worked with MVVM Design pattern",
+            "Worked with Git to track version of the codebase",
+            "Develop UI the App using SwiftUI"
+        ],
+        "link": {
+            "type": "github-black",
+            "href": "https://github.com/dimasnugroho673/c19info"
+        },
+        "tools": [
+            {
+                "name": "Xcode",
+                "icon": "xcode"
+            },
+            {
+                "name": "Postman",
+                "icon": "postman"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "SwiftUI",
+                "icon": "swiftui"
+            }
+        ]
+    }
+]
