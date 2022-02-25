@@ -170,12 +170,8 @@
                 "icon": "xcode"
             },
             {
-                "name": "Sketch",
-                "icon": "sketch"
-            },
-            {
-                "name": "Visual Studio Code",
-                "icon": "vscode"
+                "name": "Travis CI",
+                "icon": "travisci"
             },
             {
                 "name": "Postman",
@@ -184,6 +180,10 @@
             {
                 "name": "Git",
                 "icon": "git"
+            },
+            {
+                "name": "Figma",
+                "icon": "figma"
             }
         ],
         "frameworks": [
@@ -196,8 +196,8 @@
                 "icon": "rxswift"
             },
             {
-                "name": "Laravel",
-                "icon": "laravel"
+                "name": "Realm DB",
+                "icon": "realmdb"
             }
         ]
     },
@@ -229,6 +229,10 @@
             {
                 "name": "Git",
                 "icon": "git"
+            },
+            {
+                "name": "Figma",
+                "icon": "figma"
             }
         ],
         "frameworks": [

@@ -132,7 +132,7 @@ $('.col-content-list').on('click', '.row-project', function () {
                                 </div>
                                 <div class="col-lg-4">
                                     <ul class="list-group list-group-flush project-plugin">
-                                        <li class="list-group list-group-flush list-group-project">${listing('tool', project.tools)}</li>
+                                        <li class="list-group list-group-flush list-group-project mt-3">${listing('tool', project.tools)}</li>
 
                                         <li class="list-group list-group-flush mt-3">${listing('framework', project.frameworks)}</li>
 
