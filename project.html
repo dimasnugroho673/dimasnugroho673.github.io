@@ -47,6 +47,19 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="fslightbox.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXV054DQ0Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HXV054DQ0Q');
+    </script>
 </head>
 
 <body>
@@ -85,8 +98,8 @@
                     <p class="text-center">All completed project</p>
 
                     <div class="dropdown text-center">
-                        <button class="btn btn-outline-dark dropdown-toggle rounded-pill px-3 selected-project-type" type="button"
-                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle rounded-pill px-3 selected-project-type"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             iOS App
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -115,10 +128,11 @@
                     <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
                 </div>
                 <div class="modal-body modal-body-detail-project">
-                    
+
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-dark rounded-pill" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-dark rounded-pill"
+                        data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
