@@ -29,6 +29,23 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.navbar-brand {
+    transition: .2s;
+}
+
+.navbar-brand:hover {
+    color: #8C6CF8 !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8C6CF8 !important;
+}
+
+.nav-item .nav-link.active {
+    color: #8C6CF8 !important;
+    font-weight: bold;
+}
+
 .content-section {
     margin-top: 20px;
 }
@@ -55,6 +72,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 10px;
     background-color: #8C6CF8;
 } */
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
 @media (min-width: 992px) { 
     .col-desc {

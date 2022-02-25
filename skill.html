@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>Dimas Nugroho Putro | iOS Enthusiast &dash; Project</title>
+    <title>Dimas Nugroho Putro | iOS Enthusiast &dash; Skill</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Dimas Nugroho Putro">
-    <meta name="description" content="Completed project" />
+    <meta name="description" content="My Skills" />
     <meta property="og:type" content="Personal Website" />
     <meta property="og:title" content="Dimas Nugroho Putro | iOS Enthusiast Personal Site" />
-    <meta property="og:description" content="Completed project" />
+    <meta property="og:description" content="My Skills" />
     <meta property="og:image" content="https://dimasnugroho673.github.io/img/favicon.png" />
     <meta property="og:url" content="https://dimasnugroho673.github.io/" />
     <meta property="og:site_name" content="Dimas Nugroho Putro | iOS Enthusiast Personal Site" />
@@ -46,7 +46,13 @@
     <!-- my CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <script src="fslightbox.js"></script>
+    <style>
+        @media (min-width: 992px) { 
+            .ilus-skills {
+                margin-top: -30px;
+            }
+         }
+    </style>
 </head>
 
 <body>
@@ -66,10 +72,10 @@
                         <a class="nav-link" href="/experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/project?type=ios">Project</a>
+                        <a class="nav-link" href="/project?type=ios">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/skill">Skill</a>
+                        <a class="nav-link active" aria-current="page" href="/skill">Skill</a>
                     </li>
                 </ul>
             </div>
@@ -80,51 +86,36 @@
         <div class="container">
             <div class="row" style="margin-top: 100px;">
                 <div class="col-md-12">
-                    <h1 class="text-center">Project</h1>
+                    <h1 class="text-center">Skill</h1>
 
-                    <p class="text-center">All completed project</p>
-
-                    <div class="dropdown text-center">
-                        <button class="btn btn-outline-dark dropdown-toggle rounded-pill px-3 selected-project-type" type="button"
-                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            iOS App
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="javascript:;" onclick="changeType('ios')">iOS App</a>
-                            </li>
-                            <li><a class="dropdown-item" href="javascript:;" onclick="changeType('web')">Web App</a>
-                            </li>
-                            <li><a class="dropdown-item" href="javascript:;" onclick="changeType('android')">Android
-                                    App</a></li>
-                        </ul>
-                    </div>
-                </div>
+                    <p class="text-center">All the skills i have.</p>
             </div>
-            <div class="mt-5 row col-content-list">
+            <div class="mt-5 row">
+                <div class="col-md-6">
+                    <li class="list-group list-group-flush">
+                        <h6>Technical</h6>
+                        <div class="list-project-plugin text-muted">Swift</div>
+                        <div class="list-project-plugin text-muted">Xcode</div>
+                        <div class="list-project-plugin text-muted">Git</div>
+                        <div class="list-project-plugin text-muted">PHP</div>
+                        <div class="list-project-plugin text-muted">MySQL</div>
+                    </li>
+
+                    <li class="list-group list-group-flush mt-4">
+                        <h6>Professional</h6>
+                        <div class="list-project-plugin text-muted">Collaboration</div>
+                        <div class="list-project-plugin text-muted">Project Management</div>
+                        <div class="list-project-plugin text-muted">Responsibilites as Team</div>
+                        <div class="list-project-plugin text-muted">Time Management</div>
+                    </li>
+                </div>
+                <div class="col-md-6 text-center mt-3">
+                    <img src="./img/ilus-skills.png" alt="img-skills" class="ilus-skills" width="350px">
+                </div>
+                
             </div>
         </div>
     </section>
-
-    <!-- Modal -->
-    <div class="modal fade" id="detailProjectModal" tabindex="-1" aria-labelledby="detailProjectModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="detailProjectModalLabel">Project Detail</h5>
-                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-                </div>
-                <div class="modal-body modal-body-detail-project">
-                    
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-dark rounded-pill" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="project.js"></script>
 
     <script src="url.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
