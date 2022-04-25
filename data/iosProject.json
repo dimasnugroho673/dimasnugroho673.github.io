@@ -152,7 +152,6 @@
         "descriptions": "An application that contains the latest game catalog, features game details, ratings, searches, and storage using local persistent data. This application applies the VIPER design pattern, clean architecture, reactive programming and modularization for each feature. This application was made as a requirement to complete the Menjadi iOS Developer Expert class from the Dicoding Academy.",
         "role": "iOS Developer",
         "jobDescriptions": [
-            "Worked with VIPER Design pattern",
             "Worked with Clean Architecture",
             "Worked with Reactive Programming",
             "Spliting feature with Modularization",
