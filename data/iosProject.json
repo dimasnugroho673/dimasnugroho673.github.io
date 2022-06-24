@@ -102,8 +102,8 @@
             "Created RESTful API to provide back-end services",
             "Worked with RESTful API to connect iOS App to back-end services",
             "Worked with Git to track version of the codebase",
-            "Worked with Agile Framework for project management",
-            "Worked with third party library using Swift Package Manager"
+            "Worked with third party library using Swift Package Manager",
+            "Publish App to App Store"
         ],
         "link": {
             "type": "appstore-black",
