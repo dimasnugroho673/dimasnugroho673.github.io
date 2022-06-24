@@ -34,7 +34,8 @@
                 "name": "Core Data",
                 "icon": "coredata"
             }
-        ]
+        ],
+        "isActive": true
     },
     {
         "name": "KisahKata",
@@ -86,7 +87,8 @@
                 "name": "AVFoundation",
                 "icon": "avfoundation"
             }
-        ]
+        ],
+        "isActive": true
     },
     {
         "name": "Give Hub",
@@ -135,14 +137,11 @@
                 "icon": "swiftui"
             },
             {
-                "name": "Combine",
-                "icon": "combine"
-            },
-            {
                 "name": "Laravel",
                 "icon": "laravel"
             }
-        ]
+        ],
+        "isActive": true
     },
     {
         "name": "Dolanan",
@@ -198,7 +197,8 @@
                 "name": "Realm DB",
                 "icon": "realmdb"
             }
-        ]
+        ],
+        "isActive": false
     },
     {
         "name": "COVID 19 Information Center",
@@ -243,6 +243,7 @@
                 "name": "Combine",
                 "icon": "combine"
             }
-        ]
+        ],
+        "isActive": false
     }
 ]

@@ -83,15 +83,17 @@ fetch(`data/${filePath}`)
     .then(response => response.json())
     .then(json =>
         json.forEach(item => {
-            $('.col-content-list').append(`
-            <div class="col-md-4">
-                <figure class="figure row-project" data-name="${item.name}" style="cursor: pointer">
-                    <img src="${item.image != "" ? item.image : 'https://indrij.vercel.app/assets/project/usmile.png'}" class="figure-img img-fluid rounded shadow-sm" alt="...">
-
-                    <h5>${item.name}</h5>
-                </figure>
-            </div>
-        `)
+            if (item.isActive) {
+                $('.col-content-list').append(`
+                <div class="col-md-4">
+                    <figure class="figure row-project" data-name="${item.name}" style="cursor: pointer">
+                        <img src="${item.image != "" ? item.image : 'https://indrij.vercel.app/assets/project/usmile.png'}" class="figure-img img-fluid rounded shadow-sm" alt="...">
+    
+                        <h5>${item.name}</h5>
+                    </figure>
+                </div>
+            `)
+            }
         })
     )
 
